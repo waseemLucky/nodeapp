@@ -12,7 +12,7 @@ app.use("/api/users",userRoute);
 app.use("/api/chats",chatRoute);
 app.use("/api/messages",messageRoute);
 const port=3000;
-mongoose.connect('mongodb://127.0.0.1:27017/waveapp',{
+mongoose.connect('mongodb+srv://waseemLucky:ForGotten@cluster0.zverr4o.mongodb.net/?retryWrites=true&w=majority/waveapp',{
 useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(()=>
